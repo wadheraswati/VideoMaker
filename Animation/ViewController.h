@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import <ImageIO/ImageIO.h>
+#import <MessageUI/MessageUI.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <AVFoundation/AVFoundation.h>
+#import "MSImageMovieEncoder.h"
+@interface ViewController : UIViewController <MFMailComposeViewControllerDelegate>
+{
+    IBOutlet UIImageView *imgV;
+}
 @end
 

@@ -13,6 +13,15 @@
 		D913F0261F60114F00994AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D913F0251F60114F00994AF9 /* Assets.xcassets */; };
 		D913F0291F60114F00994AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D913F0271F60114F00994AF9 /* LaunchScreen.storyboard */; };
 		D913F02C1F60114F00994AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F02B1F60114F00994AF9 /* main.m */; };
+		D913F0491F60135100994AF9 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D913F0351F60118F00994AF9 /* 4.png */; };
+		D913F04A1F60135100994AF9 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D913F0331F60118900994AF9 /* 5.png */; };
+		D913F0591F601F0900994AF9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D913F0571F601F0400994AF9 /* 2.png */; };
+		D913F05A1F601F2900994AF9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D913F0581F601F0500994AF9 /* 1.png */; };
+		D913F05B1F601F2C00994AF9 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D913F0561F601F0400994AF9 /* 3.png */; };
+		D913F05E1F60232A00994AF9 /* MSImageMovieEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = D913F05C1F60232900994AF9 /* MSImageMovieEncoder.m */; };
+		D97A89881FD1205700E8FE3E /* Video_1.mov in Resources */ = {isa = PBXBuildFile; fileRef = D97A89871FD1205400E8FE3E /* Video_1.mov */; };
+		D97A89891FD1205700E8FE3E /* Video_3.mov in Resources */ = {isa = PBXBuildFile; fileRef = D97A89861FD1205400E8FE3E /* Video_3.mov */; };
+		D97A898A1FD1205700E8FE3E /* Video_2.mov in Resources */ = {isa = PBXBuildFile; fileRef = D97A89851FD1204A00E8FE3E /* Video_2.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,16 @@
 		D913F0281F60114F00994AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D913F02A1F60114F00994AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D913F02B1F60114F00994AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D913F0331F60118900994AF9 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		D913F0351F60118F00994AF9 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		D913F0561F601F0400994AF9 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		D913F0571F601F0400994AF9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		D913F0581F601F0500994AF9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D913F05C1F60232900994AF9 /* MSImageMovieEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSImageMovieEncoder.m; sourceTree = "<group>"; };
+		D913F05D1F60232A00994AF9 /* MSImageMovieEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSImageMovieEncoder.h; sourceTree = "<group>"; };
+		D97A89851FD1204A00E8FE3E /* Video_2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Video_2.mov; sourceTree = "<group>"; };
+		D97A89861FD1205400E8FE3E /* Video_3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Video_3.mov; sourceTree = "<group>"; };
+		D97A89871FD1205400E8FE3E /* Video_1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Video_1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +77,21 @@
 		D913F01B1F60114F00994AF9 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				D913F0581F601F0500994AF9 /* 1.png */,
+				D913F0571F601F0400994AF9 /* 2.png */,
+				D913F0561F601F0400994AF9 /* 3.png */,
+				D913F0351F60118F00994AF9 /* 4.png */,
+				D913F0331F60118900994AF9 /* 5.png */,
 				D913F01C1F60114F00994AF9 /* AppDelegate.h */,
 				D913F01D1F60114F00994AF9 /* AppDelegate.m */,
 				D913F01F1F60114F00994AF9 /* ViewController.h */,
 				D913F0201F60114F00994AF9 /* ViewController.m */,
 				D913F0221F60114F00994AF9 /* Main.storyboard */,
+				D97A89871FD1205400E8FE3E /* Video_1.mov */,
+				D97A89861FD1205400E8FE3E /* Video_3.mov */,
+				D97A89851FD1204A00E8FE3E /* Video_2.mov */,
+				D913F05D1F60232A00994AF9 /* MSImageMovieEncoder.h */,
+				D913F05C1F60232900994AF9 /* MSImageMovieEncoder.m */,
 				D913F0251F60114F00994AF9 /* Assets.xcassets */,
 				D913F0271F60114F00994AF9 /* LaunchScreen.storyboard */,
 				D913F02A1F60114F00994AF9 /* Info.plist */,
@@ -129,8 +158,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D913F0591F601F0900994AF9 /* 2.png in Resources */,
 				D913F0291F60114F00994AF9 /* LaunchScreen.storyboard in Resources */,
+				D913F0491F60135100994AF9 /* 4.png in Resources */,
+				D913F04A1F60135100994AF9 /* 5.png in Resources */,
+				D97A89881FD1205700E8FE3E /* Video_1.mov in Resources */,
+				D97A898A1FD1205700E8FE3E /* Video_2.mov in Resources */,
+				D913F05B1F601F2C00994AF9 /* 3.png in Resources */,
+				D913F05A1F601F2900994AF9 /* 1.png in Resources */,
 				D913F0261F60114F00994AF9 /* Assets.xcassets in Resources */,
+				D97A89891FD1205700E8FE3E /* Video_3.mov in Resources */,
 				D913F0241F60114F00994AF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +182,7 @@
 				D913F0211F60114F00994AF9 /* ViewController.m in Sources */,
 				D913F02C1F60114F00994AF9 /* main.m in Sources */,
 				D913F01E1F60114F00994AF9 /* AppDelegate.m in Sources */,
+				D913F05E1F60232A00994AF9 /* MSImageMovieEncoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +319,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3N9B3ER78;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swati.Animation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WedMeGood.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,8 +334,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3N9B3ER78;
 				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.swati.Animation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WedMeGood.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
